@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React JSX</title>
+
+    <script src="https://npmcdn.com/react@15.3.1/dist/react.js"></script>
+    <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.js"></script>
+
+  </head>
+  <body>
+
+      <script>
+        // Define a class is a component, or definition of all the object
+          var HelloWorld = React.createClass({});
+        // must instantiate a class to make the object out of it
+          var element = React.createElement(HelloWorld);
+        // React, please render this class
+
+        // React, after you render this class, please place it in my body tag
+        React.render(element, document.body); // instance of the class and target where we have to put it to
+      </script>
+  </body>
+</html>
